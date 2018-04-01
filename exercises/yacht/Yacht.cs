@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 
 /// <summary>
 /// C# solution for 'Yacht (dice game) - https://en.wikipedia.org/wiki/Yacht_(dice_game).
@@ -58,30 +59,23 @@ public class Yacht
             //Full House:  Three of one number and two of another.  Sum of all dice.
             case "full house":
                 {
-                    for (int x = 1; x <= 6; x++)
-                        for (int y = 1; y <= 6; y++)
-                        {
-                            if (y == x) continue;
-                            int sum = (x != y) &&
-                                   (diceSet.Where(z1 => z1 == x).Count() == 3) &&
-                                   (diceSet.Where(z2 => z2 == y).Count() == 2) ?
-                                   diceSet.Sum() :
-                                   0;
-                            if (sum != 0) return sum;
-                        }
-                    return 0;
+                    var testHashSet = new HashSet<int>();
+                    diceSet.ToList().ForEach(x => testHashSet.Add(x));
+                    return (testHashSet.Count() == 2) ? diceSet.Sum() : 0;
                 }
             //Four-Of-A-Kind:  At least four dice showing the same face.   Sum of those four dice.
             case "four-of-a-kind": // ?
             case "four of a kind": // ?
+                var testDict = new Dictionary<int, int>();
+                diceSet.ToList().ForEach(x =>
                 {
-                    for (int x = 1; x <= 6; x++)
-                    {
-                        int sum = (diceSet.Where(y => y == x).Count() >= 4) ? diceSet.Where(y => y == x).Take(4).Sum() : 0;
-                        if (sum != 0) return sum;
-                    }
-                    return 0;
-                }
+                    if (!testDict.ContainsKey(x)) testDict.Add(x, 1); else testDict[x]++;
+                });
+                if (testDict.Count > 2) return 0;
+                else if (testDict.Count == 1 || testDict.ElementAt(0).Value >= 4) return testDict.Keys.ToArray()[0] * 4;
+                else if (testDict.ElementAt(1).Value >= 4) return testDict.Keys.ToArray()[1] * 4;
+                else return 0;
+
             //Little Straight: 1 - 2 - 3 - 4 - 5. Score varies. Often 30.
             case "little straight": return (string.Join("-", diceSet.OrderBy(x => x)) == "1-2-3-4-5") ? 30 : 0;
             //Big Straight:    2 - 3 - 4 - 5 - 6. Score varies. Often 30.
@@ -90,13 +84,11 @@ public class Yacht
             case "choice": return diceSet.Sum();
             //Yacht: All five dice showing the same face - scores 50.
             case "yacht":
-                return
-                    (diceSet.Where(x => x == 1).Count() == 5 ||
-                    diceSet.Where(x => x == 2).Count() == 5 ||
-                    diceSet.Where(x => x == 3).Count() == 5 ||
-                    diceSet.Where(x => x == 4).Count() == 5 ||
-                    diceSet.Where(x => x == 5).Count() == 5 ||
-                    diceSet.Where(x => x == 6).Count() == 5) ? 50 : 0;
+                {
+                    var testHashSet = new HashSet<int>();
+                    diceSet.ToList().ForEach(x => testHashSet.Add(x));
+                    return (testHashSet.Count() == 1) ? 50 : 0;
+                }
             default:
                 System.Console.WriteLine("*** Undefined category = '{0}' ***", category.ToLower());
                 return 0;
