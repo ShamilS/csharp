@@ -1,0 +1,22 @@
+Microsoft (R) Build Engine version 15.3.409.57025 for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+HangmanTest.cs(11,14): error CS1061: 'HangmanGame' does not contain a definition for 'StateChanged' and no extension method 'StateChanged' accepting a first argument of type 'HangmanGame' could be found (are you missing a using directive or an assembly reference?) [G:\Learning\exercism\csharp\exercises\hangman\Hangman.csproj]
+HangmanTest.cs(25,14): error CS1061: 'HangmanGame' does not contain a definition for 'StateChanged' and no extension method 'StateChanged' accepting a first argument of type 'HangmanGame' could be found (are you missing a using directive or an assembly reference?) [G:\Learning\exercism\csharp\exercises\hangman\Hangman.csproj]
+HangmanTest.cs(38,14): error CS1061: 'HangmanGame' does not contain a definition for 'StateChanged' and no extension method 'StateChanged' accepting a first argument of type 'HangmanGame' could be found (are you missing a using directive or an assembly reference?) [G:\Learning\exercism\csharp\exercises\hangman\Hangman.csproj]
+HangmanTest.cs(56,14): error CS1061: 'HangmanGame' does not contain a definition for 'StateChanged' and no extension method 'StateChanged' accepting a first argument of type 'HangmanGame' could be found (are you missing a using directive or an assembly reference?) [G:\Learning\exercism\csharp\exercises\hangman\Hangman.csproj]
+HangmanTest.cs(79,14): error CS1061: 'HangmanGame' does not contain a definition for 'StateChanged' and no extension method 'StateChanged' accepting a first argument of type 'HangmanGame' could be found (are you missing a using directive or an assembly reference?) [G:\Learning\exercism\csharp\exercises\hangman\Hangman.csproj]
+HangmanTest.cs(102,14): error CS1061: 'HangmanGame' does not contain a definition for 'StateChanged' and no extension method 'StateChanged' accepting a first argument of type 'HangmanGame' could be found (are you missing a using directive or an assembly reference?) [G:\Learning\exercism\csharp\exercises\hangman\Hangman.csproj]
+
+Build FAILED.
+
+HangmanTest.cs(11,14): error CS1061: 'HangmanGame' does not contain a definition for 'StateChanged' and no extension method 'StateChanged' accepting a first argument of type 'HangmanGame' could be found (are you missing a using directive or an assembly reference?) [G:\Learning\exercism\csharp\exercises\hangman\Hangman.csproj]
+HangmanTest.cs(25,14): error CS1061: 'HangmanGame' does not contain a definition for 'StateChanged' and no extension method 'StateChanged' accepting a first argument of type 'HangmanGame' could be found (are you missing a using directive or an assembly reference?) [G:\Learning\exercism\csharp\exercises\hangman\Hangman.csproj]
+HangmanTest.cs(38,14): error CS1061: 'HangmanGame' does not contain a definition for 'StateChanged' and no extension method 'StateChanged' accepting a first argument of type 'HangmanGame' could be found (are you missing a using directive or an assembly reference?) [G:\Learning\exercism\csharp\exercises\hangman\Hangman.csproj]
+HangmanTest.cs(56,14): error CS1061: 'HangmanGame' does not contain a definition for 'StateChanged' and no extension method 'StateChanged' accepting a first argument of type 'HangmanGame' could be found (are you missing a using directive or an assembly reference?) [G:\Learning\exercism\csharp\exercises\hangman\Hangman.csproj]
+HangmanTest.cs(79,14): error CS1061: 'HangmanGame' does not contain a definition for 'StateChanged' and no extension method 'StateChanged' accepting a first argument of type 'HangmanGame' could be found (are you missing a using directive or an assembly reference?) [G:\Learning\exercism\csharp\exercises\hangman\Hangman.csproj]
+HangmanTest.cs(102,14): error CS1061: 'HangmanGame' does not contain a definition for 'StateChanged' and no extension method 'StateChanged' accepting a first argument of type 'HangmanGame' could be found (are you missing a using directive or an assembly reference?) [G:\Learning\exercism\csharp\exercises\hangman\Hangman.csproj]
+    0 Warning(s)
+    6 Error(s)
+
+Time Elapsed 00:00:09.93
