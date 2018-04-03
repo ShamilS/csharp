@@ -1,0 +1,579 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\accumulate\Accumulate.cs" Link="accumulate\Accumulate.cs" />
+    <Compile Include="..\..\accumulate\AccumulateTest.cs" Link="accumulate\AccumulateTest.cs" />
+    <Compile Include="..\..\acronym\Acronym.cs" Link="acronym\Acronym.cs" />
+    <Compile Include="..\..\acronym\AcronymTest.cs" Link="acronym\AcronymTest.cs" />
+    <Compile Include="..\..\all-your-base\AllYourBase.cs" Link="all-your-base\AllYourBase.cs" />
+    <Compile Include="..\..\all-your-base\AllYourBaseTest.cs" Link="all-your-base\AllYourBaseTest.cs" />
+    <Compile Include="..\..\allergies\Allergies.cs" Link="allergies\Allergies.cs" />
+    <Compile Include="..\..\allergies\AllergiesTest.cs" Link="allergies\AllergiesTest.cs" />
+    <Compile Include="..\..\alphametics\Alphametics.cs" Link="alphametics\Alphametics.cs" />
+    <Compile Include="..\..\alphametics\AlphameticsTest.cs" Link="alphametics\AlphameticsTest.cs" />
+    <Compile Include="..\..\anagram\Anagram.cs" Link="anagram\Anagram.cs" />
+    <Compile Include="..\..\anagram\AnagramTest.cs" Link="anagram\AnagramTest.cs" />
+    <Compile Include="..\..\armstrong-numbers\ArmstrongNumbers.cs" Link="armstrong-numbers\ArmstrongNumbers.cs" />
+    <Compile Include="..\..\armstrong-numbers\ArmstrongNumbersTest.cs" Link="armstrong-numbers\ArmstrongNumbersTest.cs" />
+    <Compile Include="..\..\atbash-cipher\AtbashCipher.cs" Link="atbash-cipher\AtbashCipher.cs" />
+    <Compile Include="..\..\atbash-cipher\AtbashCipherTest.cs" Link="atbash-cipher\AtbashCipherTest.cs" />
+    <Compile Include="..\..\bank-account\BankAccount.cs" Link="bank-account\BankAccount.cs" />
+    <Compile Include="..\..\bank-account\BankAccountTest.cs" Link="bank-account\BankAccountTest.cs" />
+    <Compile Include="..\..\beer-song\BeerSong.cs" Link="beer-song\BeerSong.cs" />
+    <Compile Include="..\..\beer-song\BeerSongTest.cs" Link="beer-song\BeerSongTest.cs" />
+    <Compile Include="..\..\binary\Binary.cs" Link="binary\Binary.cs" />
+    <Compile Include="..\..\binary\BinaryTest.cs" Link="binary\BinaryTest.cs" />
+    <Compile Include="..\..\binary-search\BinarySearch.cs" Link="binary-search\BinarySearch.cs" />
+    <Compile Include="..\..\binary-search\BinarySearchTest.cs" Link="binary-search\BinarySearchTest.cs" />
+    <Compile Include="..\..\binary-search-tree\BinarySearchTree.cs" Link="binary-search-tree\BinarySearchTree.cs" />
+    <Compile Include="..\..\binary-search-tree\BinarySearchTreeTest.cs" Link="binary-search-tree\BinarySearchTreeTest.cs" />
+    <Compile Include="..\..\bob\Bob.cs" Link="bob\Bob.cs" />
+    <Compile Include="..\..\bob\BobTest.cs" Link="bob\BobTest.cs" />
+    <Compile Include="..\..\book-store\BookStore.cs" Link="book-store\BookStore.cs" />
+    <Compile Include="..\..\book-store\BookStoreTest.cs" Link="book-store\BookStoreTest.cs" />
+    <Compile Include="..\..\bowling\Bowling.cs" Link="bowling\Bowling.cs" />
+    <Compile Include="..\..\bowling\BowlingTest.cs" Link="bowling\BowlingTest.cs" />
+    <Compile Include="..\..\bracket-push\BracketPush.cs" Link="bracket-push\BracketPush.cs" />
+    <Compile Include="..\..\bracket-push\BracketPushTest.cs" Link="bracket-push\BracketPushTest.cs" />
+    <Compile Include="..\..\change\Change.cs" Link="change\Change.cs" />
+    <Compile Include="..\..\change\ChangeTest.cs" Link="change\ChangeTest.cs" />
+    <Compile Include="..\..\circular-buffer\CircularBuffer.cs" Link="circular-buffer\CircularBuffer.cs" />
+    <Compile Include="..\..\circular-buffer\CircularBufferTest.cs" Link="circular-buffer\CircularBufferTest.cs" />
+    <Compile Include="..\..\clock\Clock.cs" Link="clock\Clock.cs" />
+    <Compile Include="..\..\clock\ClockTest.cs" Link="clock\ClockTest.cs" />
+    <Compile Include="..\..\collatz-conjecture\CollatzConjecture.cs" Link="collatz-conjecture\CollatzConjecture.cs" />
+    <Compile Include="..\..\collatz-conjecture\CollatzConjectureTest.cs" Link="collatz-conjecture\CollatzConjectureTest.cs" />
+    <Compile Include="..\..\complex-numbers\ComplexNumbers.cs" Link="complex-numbers\ComplexNumbers.cs" />
+    <Compile Include="..\..\complex-numbers\ComplexNumbersTest.cs" Link="complex-numbers\ComplexNumbersTest.cs" />
+    <Compile Include="..\..\connect\Connect.cs" Link="connect\Connect.cs" />
+    <Compile Include="..\..\connect\ConnectTest.cs" Link="connect\ConnectTest.cs" />
+    <Compile Include="..\..\crypto-square\CryptoSquare.cs" Link="crypto-square\CryptoSquare.cs" />
+    <Compile Include="..\..\crypto-square\CryptoSquareTest.cs" Link="crypto-square\CryptoSquareTest.cs" />
+    <Compile Include="..\..\custom-set\CustomSet.cs" Link="custom-set\CustomSet.cs" />
+    <Compile Include="..\..\custom-set\CustomSetTest.cs" Link="custom-set\CustomSetTest.cs" />
+    <Compile Include="..\..\difference-of-squares\DifferenceOfSquares.cs" Link="difference-of-squares\DifferenceOfSquares.cs" />
+    <Compile Include="..\..\difference-of-squares\DifferenceOfSquaresTest.cs" Link="difference-of-squares\DifferenceOfSquaresTest.cs" />
+    <Compile Include="..\..\diffie-hellman\DiffieHellman.cs" Link="diffie-hellman\DiffieHellman.cs" />
+    <Compile Include="..\..\diffie-hellman\DiffieHellmanTest.cs" Link="diffie-hellman\DiffieHellmanTest.cs" />
+    <Compile Include="..\..\dominoes\Dominoes.cs" Link="dominoes\Dominoes.cs" />
+    <Compile Include="..\..\dominoes\DominoesTest.cs" Link="dominoes\DominoesTest.cs" />
+    <Compile Include="..\..\etl\Etl.cs" Link="etl\Etl.cs" />
+    <Compile Include="..\..\etl\EtlTest.cs" Link="etl\EtlTest.cs" />
+    <Compile Include="..\..\flatten-array\FlattenArray.cs" Link="flatten-array\FlattenArray.cs" />
+    <Compile Include="..\..\flatten-array\FlattenArrayTest.cs" Link="flatten-array\FlattenArrayTest.cs" />
+    <Compile Include="..\..\food-chain\FoodChain.cs" Link="food-chain\FoodChain.cs" />
+    <Compile Include="..\..\food-chain\FoodChainTest.cs" Link="food-chain\FoodChainTest.cs" />
+    <Compile Include="..\..\forth\Forth.cs" Link="forth\Forth.cs" />
+    <Compile Include="..\..\forth\ForthTest.cs" Link="forth\ForthTest.cs" />
+    <Compile Include="..\..\gigasecond\Gigasecond.cs" Link="gigasecond\Gigasecond.cs" />
+    <Compile Include="..\..\gigasecond\GigasecondTest.cs" Link="gigasecond\GigasecondTest.cs" />
+    <Compile Include="..\..\go-counting\GoCounting.cs" Link="go-counting\GoCounting.cs" />
+    <Compile Include="..\..\go-counting\GoCountingTest.cs" Link="go-counting\GoCountingTest.cs" />
+    <Compile Include="..\..\grade-school\GradeSchool.cs" Link="grade-school\GradeSchool.cs" />
+    <Compile Include="..\..\grade-school\GradeSchoolTest.cs" Link="grade-school\GradeSchoolTest.cs" />
+    <Compile Include="..\..\grains\Grains.cs" Link="grains\Grains.cs" />
+    <Compile Include="..\..\grains\GrainsTest.cs" Link="grains\GrainsTest.cs" />
+    <Compile Include="..\..\grep\Grep.cs" Link="grep\Grep.cs" />
+    <Compile Include="..\..\grep\GrepTest.cs" Link="grep\GrepTest.cs" />
+    <Compile Include="..\..\hamming\Hamming.cs" Link="hamming\Hamming.cs" />
+    <Compile Include="..\..\hamming\HammingTest.cs" Link="hamming\HammingTest.cs" />
+    <Compile Include="..\..\hello-world\HelloWorld.cs" Link="hello-world\HelloWorld.cs" />
+    <Compile Include="..\..\hello-world\HelloWorldTest.cs" Link="hello-world\HelloWorldTest.cs" />
+    <Compile Include="..\..\hexadecimal\Hexadecimal.cs" Link="hexadecimal\Hexadecimal.cs" />
+    <Compile Include="..\..\hexadecimal\HexadecimalTest.cs" Link="hexadecimal\HexadecimalTest.cs" />
+    <Compile Include="..\..\house\House.cs" Link="house\House.cs" />
+    <Compile Include="..\..\house\HouseTest.cs" Link="house\HouseTest.cs" />
+    <Compile Include="..\..\isbn-verifier\IsbnVerifier.cs" Link="isbn-verifier\IsbnVerifier.cs" />
+    <Compile Include="..\..\isbn-verifier\IsbnVerifierTest.cs" Link="isbn-verifier\IsbnVerifierTest.cs" />
+    <Compile Include="..\..\isogram\Isogram.cs" Link="isogram\Isogram.cs" />
+    <Compile Include="..\..\isogram\IsogramTest.cs" Link="isogram\IsogramTest.cs" />
+    <Compile Include="..\..\kindergarten-garden\KindergartenGarden.cs" Link="kindergarten-garden\KindergartenGarden.cs" />
+    <Compile Include="..\..\kindergarten-garden\KindergartenGardenTest.cs" Link="kindergarten-garden\KindergartenGardenTest.cs" />
+    <Compile Include="..\..\largest-series-product\LargestSeriesProduct.cs" Link="largest-series-product\LargestSeriesProduct.cs" />
+    <Compile Include="..\..\largest-series-product\LargestSeriesProductTest.cs" Link="largest-series-product\LargestSeriesProductTest.cs" />
+    <Compile Include="..\..\leap\Leap.cs" Link="leap\Leap.cs" />
+    <Compile Include="..\..\leap\LeapTest.cs" Link="leap\LeapTest.cs" />
+    <Compile Include="..\..\ledger\Ledger.cs" Link="ledger\Ledger.cs" />
+    <Compile Include="..\..\ledger\LedgerTest.cs" Link="ledger\LedgerTest.cs" />
+    <Compile Include="..\..\linked-list\LinkedList.cs" Link="linked-list\LinkedList.cs" />
+    <Compile Include="..\..\linked-list\LinkedListTest.cs" Link="linked-list\LinkedListTest.cs" />
+    <Compile Include="..\..\list-ops\ListOps.cs" Link="list-ops\ListOps.cs" />
+    <Compile Include="..\..\list-ops\ListOpsTest.cs" Link="list-ops\ListOpsTest.cs" />
+    <Compile Include="..\..\luhn\Luhn.cs" Link="luhn\Luhn.cs" />
+    <Compile Include="..\..\luhn\LuhnTest.cs" Link="luhn\LuhnTest.cs" />
+    <Compile Include="..\..\markdown\Markdown.cs" Link="markdown\Markdown.cs" />
+    <Compile Include="..\..\markdown\MarkdownTest.cs" Link="markdown\MarkdownTest.cs" />
+    <Compile Include="..\..\matrix\Matrix.cs" Link="matrix\Matrix.cs" />
+    <Compile Include="..\..\matrix\MatrixTest.cs" Link="matrix\MatrixTest.cs" />
+    <Compile Include="..\..\meetup\Meetup.cs" Link="meetup\Meetup.cs" />
+    <Compile Include="..\..\meetup\MeetupTest.cs" Link="meetup\MeetupTest.cs" />
+    <Compile Include="..\..\minesweeper\Minesweeper.cs" Link="minesweeper\Minesweeper.cs" />
+    <Compile Include="..\..\minesweeper\MinesweeperTest.cs" Link="minesweeper\MinesweeperTest.cs" />
+    <Compile Include="..\..\nth-prime\NthPrime.cs" Link="nth-prime\NthPrime.cs" />
+    <Compile Include="..\..\nth-prime\NthPrimeTest.cs" Link="nth-prime\NthPrimeTest.cs" />
+    <Compile Include="..\..\nucleotide-count\NucleotideCount.cs" Link="nucleotide-count\NucleotideCount.cs" />
+    <Compile Include="..\..\nucleotide-count\NucleotideCountTest.cs" Link="nucleotide-count\NucleotideCountTest.cs" />
+    <Compile Include="..\..\ocr-numbers\OcrNumbers.cs" Link="ocr-numbers\OcrNumbers.cs" />
+    <Compile Include="..\..\ocr-numbers\OcrNumbersTest.cs" Link="ocr-numbers\OcrNumbersTest.cs" />
+    <Compile Include="..\..\octal\Octal.cs" Link="octal\Octal.cs" />
+    <Compile Include="..\..\octal\OctalTest.cs" Link="octal\OctalTest.cs" />
+    <Compile Include="..\..\palindrome-products\PalindromeProducts.cs" Link="palindrome-products\PalindromeProducts.cs" />
+    <Compile Include="..\..\palindrome-products\PalindromeTest.cs" Link="palindrome-products\PalindromeTest.cs" />
+    <Compile Include="..\..\pangram\Pangram.cs" Link="pangram\Pangram.cs" />
+    <Compile Include="..\..\pangram\PangramTest.cs" Link="pangram\PangramTest.cs" />
+    <Compile Include="..\..\parallel-letter-frequency\ParallelLetterFrequency.cs" Link="parallel-letter-frequency\ParallelLetterFrequency.cs" />
+    <Compile Include="..\..\parallel-letter-frequency\ParallelLetterFrequencyTest.cs" Link="parallel-letter-frequency\ParallelLetterFrequencyTest.cs" />
+    <Compile Include="..\..\pascals-triangle\PascalsTriangle.cs" Link="pascals-triangle\PascalsTriangle.cs" />
+    <Compile Include="..\..\pascals-triangle\PascalsTriangleTest.cs" Link="pascals-triangle\PascalsTriangleTest.cs" />
+    <Compile Include="..\..\perfect-numbers\PerfectNumbers.cs" Link="perfect-numbers\PerfectNumbers.cs" />
+    <Compile Include="..\..\perfect-numbers\PerfectNumbersTest.cs" Link="perfect-numbers\PerfectNumbersTest.cs" />
+    <Compile Include="..\..\phone-number\PhoneNumber.cs" Link="phone-number\PhoneNumber.cs" />
+    <Compile Include="..\..\phone-number\PhoneNumberTest.cs" Link="phone-number\PhoneNumberTest.cs" />
+    <Compile Include="..\..\pig-latin\PigLatin.cs" Link="pig-latin\PigLatin.cs" />
+    <Compile Include="..\..\pig-latin\PigLatinTest.cs" Link="pig-latin\PigLatinTest.cs" />
+    <Compile Include="..\..\poker\Poker.cs" Link="poker\Poker.cs" />
+    <Compile Include="..\..\poker\PokerTest.cs" Link="poker\PokerTest.cs" />
+    <Compile Include="..\..\pov\Pov.cs" Link="pov\Pov.cs" />
+    <Compile Include="..\..\pov\PovTest.cs" Link="pov\PovTest.cs" />
+    <Compile Include="..\..\prime-factors\PrimeFactors.cs" Link="prime-factors\PrimeFactors.cs" />
+    <Compile Include="..\..\prime-factors\PrimeFactorsTest.cs" Link="prime-factors\PrimeFactorsTest.cs" />
+    <Compile Include="..\..\protein-translation\ProteinTranslation.cs" Link="protein-translation\ProteinTranslation.cs" />
+    <Compile Include="..\..\protein-translation\ProteinTranslationTest.cs" Link="protein-translation\ProteinTranslationTest.cs" />
+    <Compile Include="..\..\proverb\Proverb.cs" Link="proverb\Proverb.cs" />
+    <Compile Include="..\..\proverb\ProverbTest.cs" Link="proverb\ProverbTest.cs" />
+    <Compile Include="..\..\pythagorean-triplet\PythagoreanTriplet.cs" Link="pythagorean-triplet\PythagoreanTriplet.cs" />
+    <Compile Include="..\..\pythagorean-triplet\PythagoreanTripletTest.cs" Link="pythagorean-triplet\PythagoreanTripletTest.cs" />
+    <Compile Include="..\..\queen-attack\QueenAttack.cs" Link="queen-attack\QueenAttack.cs" />
+    <Compile Include="..\..\queen-attack\QueenAttackTest.cs" Link="queen-attack\QueenAttackTest.cs" />
+    <Compile Include="..\..\rail-fence-cipher\RailFenceCipher.cs" Link="rail-fence-cipher\RailFenceCipher.cs" />
+    <Compile Include="..\..\rail-fence-cipher\RailFenceCipherTest.cs" Link="rail-fence-cipher\RailFenceCipherTest.cs" />
+    <Compile Include="..\..\raindrops\Raindrops.cs" Link="raindrops\Raindrops.cs" />
+    <Compile Include="..\..\raindrops\RaindropsTest.cs" Link="raindrops\RaindropsTest.cs" />
+    <Compile Include="..\..\rectangles\Rectangles.cs" Link="rectangles\Rectangles.cs" />
+    <Compile Include="..\..\rectangles\RectanglesTest.cs" Link="rectangles\RectanglesTest.cs" />
+    <Compile Include="..\..\reverse-string\ReverseString.cs" Link="reverse-string\ReverseString.cs" />
+    <Compile Include="..\..\reverse-string\ReverseStringTest.cs" Link="reverse-string\ReverseStringTest.cs" />
+    <Compile Include="..\..\rna-transcription\RnaTranscription.cs" Link="rna-transcription\RnaTranscription.cs" />
+    <Compile Include="..\..\rna-transcription\RnaTranscriptionTest.cs" Link="rna-transcription\RnaTranscriptionTest.cs" />
+    <Compile Include="..\..\robot-name\RobotName.cs" Link="robot-name\RobotName.cs" />
+    <Compile Include="..\..\robot-name\RobotNameTest.cs" Link="robot-name\RobotNameTest.cs" />
+    <Compile Include="..\..\robot-simulator\RobotSimulator.cs" Link="robot-simulator\RobotSimulator.cs" />
+    <Compile Include="..\..\robot-simulator\RobotSimulatorTest.cs" Link="robot-simulator\RobotSimulatorTest.cs" />
+    <Compile Include="..\..\roman-numerals\RomanNumerals.cs" Link="roman-numerals\RomanNumerals.cs" />
+    <Compile Include="..\..\roman-numerals\RomanNumeralsTest.cs" Link="roman-numerals\RomanNumeralsTest.cs" />
+    <Compile Include="..\..\rotational-cipher\RotationalCipher.cs" Link="rotational-cipher\RotationalCipher.cs" />
+    <Compile Include="..\..\rotational-cipher\RotationalCipherTest.cs" Link="rotational-cipher\RotationalCipherTest.cs" />
+    <Compile Include="..\..\run-length-encoding\RunLengthEncoding.cs" Link="run-length-encoding\RunLengthEncoding.cs" />
+    <Compile Include="..\..\run-length-encoding\RunLengthEncodingTest.cs" Link="run-length-encoding\RunLengthEncodingTest.cs" />
+    <Compile Include="..\..\saddle-points\SaddlePoints.cs" Link="saddle-points\SaddlePoints.cs" />
+    <Compile Include="..\..\saddle-points\SaddlePointsTest.cs" Link="saddle-points\SaddlePointsTest.cs" />
+    <Compile Include="..\..\say\Say.cs" Link="say\Say.cs" />
+    <Compile Include="..\..\say\SayTest.cs" Link="say\SayTest.cs" />
+    <Compile Include="..\..\scale-generator\ScaleGenerator.cs" Link="scale-generator\ScaleGenerator.cs" />
+    <Compile Include="..\..\scale-generator\ScaleGeneratorTest.cs" Link="scale-generator\ScaleGeneratorTest.cs" />
+    <Compile Include="..\..\scrabble-score\ScrabbleScore.cs" Link="scrabble-score\ScrabbleScore.cs" />
+    <Compile Include="..\..\scrabble-score\ScrabbleScoreTest.cs" Link="scrabble-score\ScrabbleScoreTest.cs" />
+    <Compile Include="..\..\secret-handshake\SecretHandshake.cs" Link="secret-handshake\SecretHandshake.cs" />
+    <Compile Include="..\..\secret-handshake\SecretHandshakeTest.cs" Link="secret-handshake\SecretHandshakeTest.cs" />
+    <Compile Include="..\..\series\Series.cs" Link="series\Series.cs" />
+    <Compile Include="..\..\series\SeriesTest.cs" Link="series\SeriesTest.cs" />
+    <Compile Include="..\..\sgf-parsing\SgfParsing.cs" Link="sgf-parsing\SgfParsing.cs" />
+    <Compile Include="..\..\sgf-parsing\SgfParsingTest.cs" Link="sgf-parsing\SgfParsingTest.cs" />
+    <Compile Include="..\..\sieve\Sieve.cs" Link="sieve\Sieve.cs" />
+    <Compile Include="..\..\sieve\SieveTest.cs" Link="sieve\SieveTest.cs" />
+    <Compile Include="..\..\simple-cipher\SimpleCipher.cs" Link="simple-cipher\SimpleCipher.cs" />
+    <Compile Include="..\..\simple-cipher\SimpleCipherTest.cs" Link="simple-cipher\SimpleCipherTest.cs" />
+    <Compile Include="..\..\simple-linked-list\SimpleLinkedList.cs" Link="simple-linked-list\SimpleLinkedList.cs" />
+    <Compile Include="..\..\simple-linked-list\SimpleLinkedListTest.cs" Link="simple-linked-list\SimpleLinkedListTest.cs" />
+    <Compile Include="..\..\space-age\SpaceAge.cs" Link="space-age\SpaceAge.cs" />
+    <Compile Include="..\..\space-age\SpaceAgeTest.cs" Link="space-age\SpaceAgeTest.cs" />
+    <Compile Include="..\..\spiral-matrix\SpiralMatrix.cs" Link="spiral-matrix\SpiralMatrix.cs" />
+    <Compile Include="..\..\spiral-matrix\SpiralMatrixTest.cs" Link="spiral-matrix\SpiralMatrixTest.cs" />
+    <Compile Include="..\..\strain\Strain.cs" Link="strain\Strain.cs" />
+    <Compile Include="..\..\strain\StrainTest.cs" Link="strain\StrainTest.cs" />
+    <Compile Include="..\..\sublist\Sublist.cs" Link="sublist\Sublist.cs" />
+    <Compile Include="..\..\sublist\SublistTest.cs" Link="sublist\SublistTest.cs" />
+    <Compile Include="..\..\sum-of-multiples\SumOfMultiples.cs" Link="sum-of-multiples\SumOfMultiples.cs" />
+    <Compile Include="..\..\sum-of-multiples\SumOfMultiplesTest.cs" Link="sum-of-multiples\SumOfMultiplesTest.cs" />
+    <Compile Include="..\..\tournament\Tournament.cs" Link="tournament\Tournament.cs" />
+    <Compile Include="..\..\tournament\TournamentTest.cs" Link="tournament\TournamentTest.cs" />
+    <Compile Include="..\..\transpose\Transpose.cs" Link="transpose\Transpose.cs" />
+    <Compile Include="..\..\transpose\TransposeTest.cs" Link="transpose\TransposeTest.cs" />
+    <Compile Include="..\..\tree-building\TreeBuilding.cs" Link="tree-building\TreeBuilding.cs" />
+    <Compile Include="..\..\tree-building\TreeBuildingTest.cs" Link="tree-building\TreeBuildingTest.cs" />
+    <Compile Include="..\..\triangle\Triangle.cs" Link="triangle\Triangle.cs" />
+    <Compile Include="..\..\triangle\TriangleTest.cs" Link="triangle\TriangleTest.cs" />
+    <Compile Include="..\..\trinary\Trinary.cs" Link="trinary\Trinary.cs" />
+    <Compile Include="..\..\trinary\TrinaryTest.cs" Link="trinary\TrinaryTest.cs" />
+    <Compile Include="..\..\twelve-days\TwelveDays.cs" Link="twelve-days\TwelveDays.cs" />
+    <Compile Include="..\..\twelve-days\TwelveDaysTest.cs" Link="twelve-days\TwelveDaysTest.cs" />
+    <Compile Include="..\..\two-bucket\TwoBucket.cs" Link="two-bucket\TwoBucket.cs" />
+    <Compile Include="..\..\two-bucket\TwoBucketTest.cs" Link="two-bucket\TwoBucketTest.cs" />
+    <Compile Include="..\..\two-fer\TwoFer.cs" Link="two-fer\TwoFer.cs" />
+    <Compile Include="..\..\two-fer\TwoFerTest.cs" Link="two-fer\TwoFerTest.cs" />
+    <Compile Include="..\..\variable-length-quantity\VariableLengthQuantity.cs" Link="variable-length-quantity\VariableLengthQuantity.cs" />
+    <Compile Include="..\..\variable-length-quantity\VariableLengthQuantityTest.cs" Link="variable-length-quantity\VariableLengthQuantityTest.cs" />
+    <Compile Include="..\..\word-count\WordCount.cs" Link="word-count\WordCount.cs" />
+    <Compile Include="..\..\word-count\WordCountTest.cs" Link="word-count\WordCountTest.cs" />
+    <Compile Include="..\..\word-search\WordSearch.cs" Link="word-search\WordSearch.cs" />
+    <Compile Include="..\..\word-search\WordSearchTest.cs" Link="word-search\WordSearchTest.cs" />
+    <Compile Include="..\..\wordy\Wordy.cs" Link="wordy\Wordy.cs" />
+    <Compile Include="..\..\wordy\WordyTest.cs" Link="wordy\WordyTest.cs" />
+    <Compile Include="..\..\zebra-puzzle\ZebraPuzzle.cs" Link="zebra-puzzle\ZebraPuzzle.cs" />
+    <Compile Include="..\..\zebra-puzzle\ZebraPuzzleTest.cs" Link="zebra-puzzle\ZebraPuzzleTest.cs" />
+    <Compile Include="..\..\zipper\Zipper.cs" Link="zipper\Zipper.cs" />
+    <Compile Include="..\..\zipper\ZipperTest.cs" Link="zipper\ZipperTest.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.6.2" />
+    <PackageReference Include="xunit" Version="2.3.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="accumulate\" />
+    <Folder Include="acronym\" />
+    <Folder Include="all-your-base\" />
+    <Folder Include="allergies\" />
+    <Folder Include="alphametics\" />
+    <Folder Include="anagram\" />
+    <Folder Include="armstrong-numbers\" />
+    <Folder Include="atbash-cipher\" />
+    <Folder Include="bank-account\" />
+    <Folder Include="beer-song\" />
+    <Folder Include="binary\" />
+    <Folder Include="binary-search\" />
+    <Folder Include="binary-search-tree\" />
+    <Folder Include="bob\" />
+    <Folder Include="book-store\" />
+    <Folder Include="bowling\" />
+    <Folder Include="bracket-push\" />
+    <Folder Include="change\" />
+    <Folder Include="circular-buffer\" />
+    <Folder Include="clock\" />
+    <Folder Include="collatz-conjecture\" />
+    <Folder Include="complex-numbers\" />
+    <Folder Include="connect\" />
+    <Folder Include="crypto-square\" />
+    <Folder Include="custom-set\" />
+    <Folder Include="difference-of-squares\" />
+    <Folder Include="diffie-hellman\" />
+    <Folder Include="dominoes\" />
+    <Folder Include="etl\" />
+    <Folder Include="flatten-array\" />
+    <Folder Include="food-chain\" />
+    <Folder Include="forth\" />
+    <Folder Include="gigasecond\" />
+    <Folder Include="go-counting\" />
+    <Folder Include="grade-school\" />
+    <Folder Include="grains\" />
+    <Folder Include="grep\" />
+    <Folder Include="hamming\" />
+    <Folder Include="hello-world\" />
+    <Folder Include="hexadecimal\" />
+    <Folder Include="house\" />
+    <Folder Include="isbn-verifier\" />
+    <Folder Include="isogram\" />
+    <Folder Include="kindergarten-garden\" />
+    <Folder Include="largest-series-product\" />
+    <Folder Include="leap\" />
+    <Folder Include="ledger\" />
+    <Folder Include="linked-list\" />
+    <Folder Include="list-ops\" />
+    <Folder Include="luhn\" />
+    <Folder Include="markdown\" />
+    <Folder Include="matrix\" />
+    <Folder Include="meetup\" />
+    <Folder Include="minesweeper\" />
+    <Folder Include="nth-prime\" />
+    <Folder Include="nucleotide-count\" />
+    <Folder Include="ocr-numbers\" />
+    <Folder Include="octal\" />
+    <Folder Include="palindrome-products\" />
+    <Folder Include="pangram\" />
+    <Folder Include="parallel-letter-frequency\" />
+    <Folder Include="pascals-triangle\" />
+    <Folder Include="perfect-numbers\" />
+    <Folder Include="phone-number\" />
+    <Folder Include="pig-latin\" />
+    <Folder Include="poker\" />
+    <Folder Include="pov\" />
+    <Folder Include="prime-factors\" />
+    <Folder Include="protein-translation\" />
+    <Folder Include="proverb\" />
+    <Folder Include="pythagorean-triplet\" />
+    <Folder Include="queen-attack\" />
+    <Folder Include="rail-fence-cipher\" />
+    <Folder Include="raindrops\" />
+    <Folder Include="rectangles\" />
+    <Folder Include="reverse-string\" />
+    <Folder Include="rna-transcription\" />
+    <Folder Include="robot-name\" />
+    <Folder Include="robot-simulator\" />
+    <Folder Include="roman-numerals\" />
+    <Folder Include="rotational-cipher\" />
+    <Folder Include="run-length-encoding\" />
+    <Folder Include="saddle-points\" />
+    <Folder Include="say\" />
+    <Folder Include="scale-generator\" />
+    <Folder Include="scrabble-score\" />
+    <Folder Include="secret-handshake\" />
+    <Folder Include="series\" />
+    <Folder Include="sgf-parsing\" />
+    <Folder Include="sieve\" />
+    <Folder Include="simple-cipher\" />
+    <Folder Include="simple-linked-list\" />
+    <Folder Include="space-age\" />
+    <Folder Include="spiral-matrix\" />
+    <Folder Include="strain\" />
+    <Folder Include="sublist\" />
+    <Folder Include="sum-of-multiples\" />
+    <Folder Include="tournament\" />
+    <Folder Include="transpose\" />
+    <Folder Include="tree-building\" />
+    <Folder Include="triangle\" />
+    <Folder Include="trinary\" />
+    <Folder Include="twelve-days\" />
+    <Folder Include="two-bucket\" />
+    <Folder Include="two-fer\" />
+    <Folder Include="variable-length-quantity\" />
+    <Folder Include="word-count\" />
+    <Folder Include="word-search\" />
+    <Folder Include="wordy\" />
+    <Folder Include="zebra-puzzle\" />
+    <Folder Include="zipper\" />    
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\accumulate\Accumulate.csproj" Link="accumulate\Accumulate.csproj" />
+    <None Include="..\..\accumulate\README.md" Link="accumulate\README.md" />
+    <None Include="..\..\acronym\Acronym.csproj" Link="acronym\Acronym.csproj" />
+    <None Include="..\..\acronym\README.md" Link="acronym\README.md" />
+    <None Include="..\..\all-your-base\AllYourBase.csproj" Link="all-your-base\AllYourBase.csproj" />
+    <None Include="..\..\all-your-base\README.md" Link="all-your-base\README.md" />
+    <None Include="..\..\allergies\Allergies.csproj" Link="allergies\Allergies.csproj" />
+    <None Include="..\..\allergies\README.md" Link="allergies\README.md" />
+    <None Include="..\..\alphametics\Alphametics.csproj" Link="alphametics\Alphametics.csproj" />
+    <None Include="..\..\alphametics\README.md" Link="alphametics\README.md" />
+    <None Include="..\..\anagram\Anagram.csproj" Link="anagram\Anagram.csproj" />
+    <None Include="..\..\anagram\README.md" Link="anagram\README.md" />
+    <None Include="..\..\armstrong-numbers\ArmstrongNumbers.csproj" Link="armstrong-numbers\ArmstrongNumbers.csproj" />
+    <None Include="..\..\armstrong-numbers\README.md" Link="armstrong-numbers\README.md" />
+    <None Include="..\..\atbash-cipher\AtbashCipher.csproj" Link="atbash-cipher\AtbashCipher.csproj" />
+    <None Include="..\..\atbash-cipher\README.md" Link="atbash-cipher\README.md" />
+    <None Include="..\..\bank-account\BankAccount.csproj" Link="bank-account\BankAccount.csproj" />
+    <None Include="..\..\bank-account\README.md" Link="bank-account\README.md" />
+    <None Include="..\..\beer-song\BeerSong.csproj" Link="beer-song\BeerSong.csproj" />
+    <None Include="..\..\beer-song\README.md" Link="beer-song\README.md" />
+    <None Include="..\..\binary\Binary.csproj" Link="binary\Binary.csproj" />
+    <None Include="..\..\binary\README.md" Link="binary\README.md" />
+    <None Include="..\..\binary-search\BinarySearch.csproj" Link="binary-search\BinarySearch.csproj" />
+    <None Include="..\..\binary-search\README.md" Link="binary-search\README.md" />
+    <None Include="..\..\binary-search-tree\BinarySearchTree.csproj" Link="binary-search-tree\BinarySearchTree.csproj" />
+    <None Include="..\..\binary-search-tree\README.md" Link="binary-search-tree\README.md" />
+    <None Include="..\..\bob\Bob.csproj" Link="bob\Bob.csproj" />
+    <None Include="..\..\bob\README.md" Link="bob\README.md" />
+    <None Include="..\..\book-store\BookStore.csproj" Link="book-store\BookStore.csproj" />
+    <None Include="..\..\book-store\README.md" Link="book-store\README.md" />
+    <None Include="..\..\bowling\Bowling.csproj" Link="bowling\Bowling.csproj" />
+    <None Include="..\..\bowling\README.md" Link="bowling\README.md" />
+    <None Include="..\..\bracket-push\BracketPush.csproj" Link="bracket-push\BracketPush.csproj" />
+    <None Include="..\..\bracket-push\README.md" Link="bracket-push\README.md" />
+    <None Include="..\..\change\Change.csproj" Link="change\Change.csproj" />
+    <None Include="..\..\change\README.md" Link="change\README.md" />
+    <None Include="..\..\circular-buffer\CircularBuffer.csproj" Link="circular-buffer\CircularBuffer.csproj" />
+    <None Include="..\..\circular-buffer\README.md" Link="circular-buffer\README.md" />
+    <None Include="..\..\clock\Clock.csproj" Link="clock\Clock.csproj" />
+    <None Include="..\..\clock\README.md" Link="clock\README.md" />
+    <None Include="..\..\collatz-conjecture\CollatzConjecture.csproj" Link="collatz-conjecture\CollatzConjecture.csproj" />
+    <None Include="..\..\collatz-conjecture\README.md" Link="collatz-conjecture\README.md" />
+    <None Include="..\..\complex-numbers\ComplexNumbers.csproj" Link="complex-numbers\ComplexNumbers.csproj" />
+    <None Include="..\..\complex-numbers\README.md" Link="complex-numbers\README.md" />
+    <None Include="..\..\connect\Connect.csproj" Link="connect\Connect.csproj" />
+    <None Include="..\..\connect\README.md" Link="connect\README.md" />
+    <None Include="..\..\crypto-square\CryptoSquare.csproj" Link="crypto-square\CryptoSquare.csproj" />
+    <None Include="..\..\crypto-square\README.md" Link="crypto-square\README.md" />
+    <None Include="..\..\custom-set\CustomSet.csproj" Link="custom-set\CustomSet.csproj" />
+    <None Include="..\..\custom-set\README.md" Link="custom-set\README.md" />
+    <None Include="..\..\difference-of-squares\DifferenceOfSquares.csproj" Link="difference-of-squares\DifferenceOfSquares.csproj" />
+    <None Include="..\..\difference-of-squares\README.md" Link="difference-of-squares\README.md" />
+    <None Include="..\..\diffie-hellman\DiffieHellman.csproj" Link="diffie-hellman\DiffieHellman.csproj" />
+    <None Include="..\..\diffie-hellman\README.md" Link="diffie-hellman\README.md" />
+    <None Include="..\..\dominoes\Dominoes.csproj" Link="dominoes\Dominoes.csproj" />
+    <None Include="..\..\dominoes\README.md" Link="dominoes\README.md" />
+    <None Include="..\..\etl\Etl.csproj" Link="etl\Etl.csproj" />
+    <None Include="..\..\etl\README.md" Link="etl\README.md" />
+    <None Include="..\..\flatten-array\FlattenArray.csproj" Link="flatten-array\FlattenArray.csproj" />
+    <None Include="..\..\flatten-array\README.md" Link="flatten-array\README.md" />
+    <None Include="..\..\food-chain\FoodChain.csproj" Link="food-chain\FoodChain.csproj" />
+    <None Include="..\..\food-chain\README.md" Link="food-chain\README.md" />
+    <None Include="..\..\forth\Forth.csproj" Link="forth\Forth.csproj" />
+    <None Include="..\..\forth\README.md" Link="forth\README.md" />
+    <None Include="..\..\gigasecond\Gigasecond.csproj" Link="gigasecond\Gigasecond.csproj" />
+    <None Include="..\..\gigasecond\README.md" Link="gigasecond\README.md" />
+    <None Include="..\..\go-counting\GoCounting.csproj" Link="go-counting\GoCounting.csproj" />
+    <None Include="..\..\go-counting\README.md" Link="go-counting\README.md" />
+    <None Include="..\..\grade-school\GradeSchool.csproj" Link="grade-school\GradeSchool.csproj" />
+    <None Include="..\..\grade-school\README.md" Link="grade-school\README.md" />
+    <None Include="..\..\grains\Grains.csproj" Link="grains\Grains.csproj" />
+    <None Include="..\..\grains\README.md" Link="grains\README.md" />
+    <None Include="..\..\grep\Grep.csproj" Link="grep\Grep.csproj" />
+    <None Include="..\..\grep\README.md" Link="grep\README.md" />
+    <None Include="..\..\hamming\Hamming.csproj" Link="hamming\Hamming.csproj" />
+    <None Include="..\..\hamming\README.md" Link="hamming\README.md" />
+    <None Include="..\..\hello-world\HelloWorld.csproj" Link="hello-world\HelloWorld.csproj" />
+    <None Include="..\..\hello-world\README.md" Link="hello-world\README.md" />
+    <None Include="..\..\hexadecimal\Hexadecimal.csproj" Link="hexadecimal\Hexadecimal.csproj" />
+    <None Include="..\..\hexadecimal\README.md" Link="hexadecimal\README.md" />
+    <None Include="..\..\house\House.csproj" Link="house\House.csproj" />
+    <None Include="..\..\house\README.md" Link="house\README.md" />
+    <None Include="..\..\isbn-verifier\IsbnVerifier.csproj" Link="isbn-verifier\IsbnVerifier.csproj" />
+    <None Include="..\..\isbn-verifier\README.md" Link="isbn-verifier\README.md" />
+    <None Include="..\..\isogram\Isogram.csproj" Link="isogram\Isogram.csproj" />
+    <None Include="..\..\isogram\README.md" Link="isogram\README.md" />
+    <None Include="..\..\kindergarten-garden\KindergartenGarden.csproj" Link="kindergarten-garden\KindergartenGarden.csproj" />
+    <None Include="..\..\kindergarten-garden\README.md" Link="kindergarten-garden\README.md" />
+    <None Include="..\..\largest-series-product\LargestSeriesProduct.csproj" Link="largest-series-product\LargestSeriesProduct.csproj" />
+    <None Include="..\..\largest-series-product\README.md" Link="largest-series-product\README.md" />
+    <None Include="..\..\leap\Leap.csproj" Link="leap\Leap.csproj" />
+    <None Include="..\..\leap\README.md" Link="leap\README.md" />
+    <None Include="..\..\ledger\Ledger.csproj" Link="ledger\Ledger.csproj" />
+    <None Include="..\..\ledger\README.md" Link="ledger\README.md" />
+    <None Include="..\..\linked-list\LinkedList.csproj" Link="linked-list\LinkedList.csproj" />
+    <None Include="..\..\linked-list\README.md" Link="linked-list\README.md" />
+    <None Include="..\..\list-ops\ListOps.csproj" Link="list-ops\ListOps.csproj" />
+    <None Include="..\..\list-ops\README.md" Link="list-ops\README.md" />
+    <None Include="..\..\luhn\Luhn.csproj" Link="luhn\Luhn.csproj" />
+    <None Include="..\..\luhn\README.md" Link="luhn\README.md" />
+    <None Include="..\..\markdown\Markdown.csproj" Link="markdown\Markdown.csproj" />
+    <None Include="..\..\markdown\README.md" Link="markdown\README.md" />
+    <None Include="..\..\matrix\Matrix.csproj" Link="matrix\Matrix.csproj" />
+    <None Include="..\..\matrix\README.md" Link="matrix\README.md" />
+    <None Include="..\..\meetup\Meetup.csproj" Link="meetup\Meetup.csproj" />
+    <None Include="..\..\meetup\README.md" Link="meetup\README.md" />
+    <None Include="..\..\minesweeper\Minesweeper.csproj" Link="minesweeper\Minesweeper.csproj" />
+    <None Include="..\..\minesweeper\README.md" Link="minesweeper\README.md" />
+    <None Include="..\..\nth-prime\NthPrime.csproj" Link="nth-prime\NthPrime.csproj" />
+    <None Include="..\..\nth-prime\README.md" Link="nth-prime\README.md" />
+    <None Include="..\..\nucleotide-count\NucleotideCount.csproj" Link="nucleotide-count\NucleotideCount.csproj" />
+    <None Include="..\..\nucleotide-count\README.md" Link="nucleotide-count\README.md" />
+    <None Include="..\..\ocr-numbers\OcrNumbers.csproj" Link="ocr-numbers\OcrNumbers.csproj" />
+    <None Include="..\..\ocr-numbers\README.md" Link="ocr-numbers\README.md" />
+    <None Include="..\..\octal\Octal.csproj" Link="octal\Octal.csproj" />
+    <None Include="..\..\octal\README.md" Link="octal\README.md" />
+    <None Include="..\..\palindrome-products\PalindromeProducts.csproj" Link="palindrome-products\PalindromeProducts.csproj" />
+    <None Include="..\..\palindrome-products\README.md" Link="palindrome-products\README.md" />
+    <None Include="..\..\pangram\Pangram.csproj" Link="pangram\Pangram.csproj" />
+    <None Include="..\..\pangram\README.md" Link="pangram\README.md" />
+    <None Include="..\..\parallel-letter-frequency\ParallelLetterFrequency.csproj" Link="parallel-letter-frequency\ParallelLetterFrequency.csproj" />
+    <None Include="..\..\parallel-letter-frequency\README.md" Link="parallel-letter-frequency\README.md" />
+    <None Include="..\..\pascals-triangle\PascalsTriangle.csproj" Link="pascals-triangle\PascalsTriangle.csproj" />
+    <None Include="..\..\pascals-triangle\README.md" Link="pascals-triangle\README.md" />
+    <None Include="..\..\perfect-numbers\PerfectNumbers.csproj" Link="perfect-numbers\PerfectNumbers.csproj" />
+    <None Include="..\..\perfect-numbers\README.md" Link="perfect-numbers\README.md" />
+    <None Include="..\..\phone-number\PhoneNumber.csproj" Link="phone-number\PhoneNumber.csproj" />
+    <None Include="..\..\phone-number\README.md" Link="phone-number\README.md" />
+    <None Include="..\..\pig-latin\PigLatin.csproj" Link="pig-latin\PigLatin.csproj" />
+    <None Include="..\..\pig-latin\README.md" Link="pig-latin\README.md" />
+    <None Include="..\..\poker\Poker.csproj" Link="poker\Poker.csproj" />
+    <None Include="..\..\poker\README.md" Link="poker\README.md" />
+    <None Include="..\..\pov\Pov.csproj" Link="pov\Pov.csproj" />
+    <None Include="..\..\pov\README.md" Link="pov\README.md" />
+    <None Include="..\..\prime-factors\PrimeFactors.csproj" Link="prime-factors\PrimeFactors.csproj" />
+    <None Include="..\..\prime-factors\README.md" Link="prime-factors\README.md" />
+    <None Include="..\..\protein-translation\ProteinTranslation.csproj" Link="protein-translation\ProteinTranslation.csproj" />
+    <None Include="..\..\protein-translation\README.md" Link="protein-translation\README.md" />
+    <None Include="..\..\proverb\Proverb.csproj" Link="proverb\Proverb.csproj" />
+    <None Include="..\..\proverb\README.md" Link="proverb\README.md" />
+    <None Include="..\..\pythagorean-triplet\PythagoreanTriplet.csproj" Link="pythagorean-triplet\PythagoreanTriplet.csproj" />
+    <None Include="..\..\pythagorean-triplet\README.md" Link="pythagorean-triplet\README.md" />
+    <None Include="..\..\queen-attack\QueenAttack.csproj" Link="queen-attack\QueenAttack.csproj" />
+    <None Include="..\..\queen-attack\README.md" Link="queen-attack\README.md" />
+    <None Include="..\..\rail-fence-cipher\RailFenceCipher.csproj" Link="rail-fence-cipher\RailFenceCipher.csproj" />
+    <None Include="..\..\rail-fence-cipher\README.md" Link="rail-fence-cipher\README.md" />
+    <None Include="..\..\raindrops\Raindrops.csproj" Link="raindrops\Raindrops.csproj" />
+    <None Include="..\..\raindrops\README.md" Link="raindrops\README.md" />
+    <None Include="..\..\rectangles\README.md" Link="rectangles\README.md" />
+    <None Include="..\..\rectangles\Rectangles.csproj" Link="rectangles\Rectangles.csproj" />
+    <None Include="..\..\reverse-string\README.md" Link="reverse-string\README.md" />
+    <None Include="..\..\reverse-string\ReverseString.csproj" Link="reverse-string\ReverseString.csproj" />
+    <None Include="..\..\rna-transcription\README.md" Link="rna-transcription\README.md" />
+    <None Include="..\..\rna-transcription\RnaTranscription.csproj" Link="rna-transcription\RnaTranscription.csproj" />
+    <None Include="..\..\robot-name\README.md" Link="robot-name\README.md" />
+    <None Include="..\..\robot-name\RobotName.csproj" Link="robot-name\RobotName.csproj" />
+    <None Include="..\..\robot-simulator\README.md" Link="robot-simulator\README.md" />
+    <None Include="..\..\robot-simulator\RobotSimulator.csproj" Link="robot-simulator\RobotSimulator.csproj" />
+    <None Include="..\..\roman-numerals\README.md" Link="roman-numerals\README.md" />
+    <None Include="..\..\roman-numerals\RomanNumerals.csproj" Link="roman-numerals\RomanNumerals.csproj" />
+    <None Include="..\..\rotational-cipher\README.md" Link="rotational-cipher\README.md" />
+    <None Include="..\..\rotational-cipher\RotationalCipher.csproj" Link="rotational-cipher\RotationalCipher.csproj" />
+    <None Include="..\..\run-length-encoding\README.md" Link="run-length-encoding\README.md" />
+    <None Include="..\..\run-length-encoding\RunLengthEncoding.csproj" Link="run-length-encoding\RunLengthEncoding.csproj" />
+    <None Include="..\..\saddle-points\README.md" Link="saddle-points\README.md" />
+    <None Include="..\..\saddle-points\SaddlePoints.csproj" Link="saddle-points\SaddlePoints.csproj" />
+    <None Include="..\..\say\README.md" Link="say\README.md" />
+    <None Include="..\..\say\Say.csproj" Link="say\Say.csproj" />
+    <None Include="..\..\scale-generator\README.md" Link="scale-generator\README.md" />
+    <None Include="..\..\scale-generator\ScaleGenerator.csproj" Link="scale-generator\ScaleGenerator.csproj" />
+    <None Include="..\..\scrabble-score\README.md" Link="scrabble-score\README.md" />
+    <None Include="..\..\scrabble-score\ScrabbleScore.csproj" Link="scrabble-score\ScrabbleScore.csproj" />
+    <None Include="..\..\secret-handshake\README.md" Link="secret-handshake\README.md" />
+    <None Include="..\..\secret-handshake\SecretHandshake.csproj" Link="secret-handshake\SecretHandshake.csproj" />
+    <None Include="..\..\series\README.md" Link="series\README.md" />
+    <None Include="..\..\series\Series.csproj" Link="series\Series.csproj" />
+    <None Include="..\..\sgf-parsing\README.md" Link="sgf-parsing\README.md" />
+    <None Include="..\..\sgf-parsing\SgfParsing.csproj" Link="sgf-parsing\SgfParsing.csproj" />
+    <None Include="..\..\sieve\README.md" Link="sieve\README.md" />
+    <None Include="..\..\sieve\Sieve.csproj" Link="sieve\Sieve.csproj" />
+    <None Include="..\..\simple-cipher\README.md" Link="simple-cipher\README.md" />
+    <None Include="..\..\simple-cipher\SimpleCipher.csproj" Link="simple-cipher\SimpleCipher.csproj" />
+    <None Include="..\..\simple-linked-list\README.md" Link="simple-linked-list\README.md" />
+    <None Include="..\..\simple-linked-list\SimpleLinkedList.csproj" Link="simple-linked-list\SimpleLinkedList.csproj" />
+    <None Include="..\..\space-age\README.md" Link="space-age\README.md" />
+    <None Include="..\..\space-age\SpaceAge.csproj" Link="space-age\SpaceAge.csproj" />
+    <None Include="..\..\spiral-matrix\README.md" Link="spiral-matrix\README.md" />
+    <None Include="..\..\spiral-matrix\SpiralMatrix.csproj" Link="spiral-matrix\SpiralMatrix.csproj" />
+    <None Include="..\..\strain\README.md" Link="strain\README.md" />
+    <None Include="..\..\strain\Strain.csproj" Link="strain\Strain.csproj" />
+    <None Include="..\..\sublist\README.md" Link="sublist\README.md" />
+    <None Include="..\..\sublist\Sublist.csproj" Link="sublist\Sublist.csproj" />
+    <None Include="..\..\sum-of-multiples\README.md" Link="sum-of-multiples\README.md" />
+    <None Include="..\..\sum-of-multiples\SumOfMultiples.csproj" Link="sum-of-multiples\SumOfMultiples.csproj" />
+    <None Include="..\..\tournament\README.md" Link="tournament\README.md" />
+    <None Include="..\..\tournament\Tournament.csproj" Link="tournament\Tournament.csproj" />
+    <None Include="..\..\transpose\README.md" Link="transpose\README.md" />
+    <None Include="..\..\transpose\Transpose.csproj" Link="transpose\Transpose.csproj" />
+    <None Include="..\..\tree-building\README.md" Link="tree-building\README.md" />
+    <None Include="..\..\tree-building\TreeBuilding.csproj" Link="tree-building\TreeBuilding.csproj" />
+    <None Include="..\..\triangle\README.md" Link="triangle\README.md" />
+    <None Include="..\..\triangle\Triangle.csproj" Link="triangle\Triangle.csproj" />
+    <None Include="..\..\trinary\README.md" Link="trinary\README.md" />
+    <None Include="..\..\trinary\Trinary.csproj" Link="trinary\Trinary.csproj" />
+    <None Include="..\..\twelve-days\README.md" Link="twelve-days\README.md" />
+    <None Include="..\..\twelve-days\TwelveDays.csproj" Link="twelve-days\TwelveDays.csproj" />
+    <None Include="..\..\two-bucket\README.md" Link="two-bucket\README.md" />
+    <None Include="..\..\two-bucket\TwoBucket.csproj" Link="two-bucket\TwoBucket.csproj" />
+    <None Include="..\..\two-fer\README.md" Link="two-fer\README.md" />
+    <None Include="..\..\two-fer\TwoFer.csproj" Link="two-fer\TwoFer.csproj" />
+    <None Include="..\..\variable-length-quantity\README.md" Link="variable-length-quantity\README.md" />
+    <None Include="..\..\variable-length-quantity\VariableLengthQuantity.csproj" Link="variable-length-quantity\VariableLengthQuantity.csproj" />
+    <None Include="..\..\word-count\README.md" Link="word-count\README.md" />
+    <None Include="..\..\word-count\WordCount.csproj" Link="word-count\WordCount.csproj" />
+    <None Include="..\..\word-search\README.md" Link="word-search\README.md" />
+    <None Include="..\..\word-search\WordSearch.csproj" Link="word-search\WordSearch.csproj" />
+    <None Include="..\..\wordy\README.md" Link="wordy\README.md" />
+    <None Include="..\..\wordy\Wordy.csproj" Link="wordy\Wordy.csproj" />
+    <None Include="..\..\zebra-puzzle\README.md" Link="zebra-puzzle\README.md" />
+    <None Include="..\..\zebra-puzzle\ZebraPuzzle.csproj" Link="zebra-puzzle\ZebraPuzzle.csproj" />
+    <None Include="..\..\zipper\README.md" Link="zipper\README.md" />
+    <None Include="..\..\zipper\Zipper.csproj" Link="zipper\Zipper.csproj" />
+  </ItemGroup>
+
+</Project>
+

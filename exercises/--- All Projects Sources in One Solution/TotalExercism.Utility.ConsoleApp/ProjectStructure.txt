@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\accumulate\Accumulate.cs" Link="accumulate\Accumulate.cs" />
+    <Compile Include="..\..\accumulate\AccumulateTest.cs" Link="accumulate\AccumulateTest.cs" />
+    <Compile Include="..\..\acronym\Acronym.cs" Link="acronym\Acronym.cs" />
+    <Compile Include="..\..\acronym\AcronymTest.cs" Link="acronym\AcronymTest.cs" />
+    <Compile Include="..\..\all-your-base\AllYourBase.cs" Link="all-your-base\AllYourBase.cs" />
+    <Compile Include="..\..\all-your-base\AllYourBaseTest.cs" Link="all-your-base\AllYourBaseTest.cs" />
+    <Compile Include="..\..\allergies\Allergies.cs" Link="allergies\Allergies.cs" />
+    <Compile Include="..\..\allergies\AllergiesTest.cs" Link="allergies\AllergiesTest.cs" />
+    <Compile Include="..\..\Yacht2\Yacht.cs" Link="Yacht2\Yacht.cs" />
+    <Compile Include="..\..\Yacht2\YachtTest.cs" Link="Yacht2\YachtTest.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.6.2" />
+    <PackageReference Include="xunit" Version="2.3.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="accumulate\" />
+    <Folder Include="acronym\" />
+    <Folder Include="allergies\" />
+    <Folder Include="all-your-base\" />
+    <Folder Include="Yacht2\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\accumulate\Accumulate.csproj" Link="accumulate\Accumulate.csproj" />
+    <None Include="..\..\accumulate\README.md" Link="accumulate\README.md" />
+    <None Include="..\..\acronym\Acronym.csproj" Link="acronym\Acronym.csproj" />
+    <None Include="..\..\acronym\README.md" Link="acronym\README.md" />
+    <None Include="..\..\all-your-base\AllYourBase.csproj" Link="all-your-base\AllYourBase.csproj" />
+    <None Include="..\..\all-your-base\README.md" Link="all-your-base\README.md" />
+    <None Include="..\..\allergies\Allergies.csproj" Link="allergies\Allergies.csproj" />
+    <None Include="..\..\allergies\README.md" Link="allergies\README.md" />
+    <None Include="..\..\Yacht2\Yacht2.csproj" Link="Yacht2\Yacht2.csproj" />
+  </ItemGroup>
+
+</Project>

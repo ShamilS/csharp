@@ -1,0 +1,22 @@
+﻿1>------ Build started: Project: TotalExercism_Generated, Configuration: Debug Any CPU ------
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(2,7,2,14): error CS0246: The type or namespace name 'FsCheck' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(3,7,3,14): error CS0246: The type or namespace name 'FsCheck' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(114,41,114,58): error CS0246: The type or namespace name 'PropertyAttribute' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(16,6,16,21): error CS0616: 'DiamondPropertyAttribute' is not an attribute class
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(24,6,24,21): error CS0616: 'DiamondPropertyAttribute' is not an attribute class
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(24,22,24,26): error CS0246: The type or namespace name 'Skip' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(34,6,34,21): error CS0616: 'DiamondPropertyAttribute' is not an attribute class
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(34,22,34,26): error CS0246: The type or namespace name 'Skip' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(46,6,46,21): error CS0616: 'DiamondPropertyAttribute' is not an attribute class
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(46,22,46,26): error CS0246: The type or namespace name 'Skip' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(58,6,58,21): error CS0616: 'DiamondPropertyAttribute' is not an attribute class
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(58,22,58,26): error CS0246: The type or namespace name 'Skip' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(70,6,70,21): error CS0616: 'DiamondPropertyAttribute' is not an attribute class
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(70,22,70,26): error CS0246: The type or namespace name 'Skip' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(84,6,84,21): error CS0616: 'DiamondPropertyAttribute' is not an attribute class
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(84,22,84,26): error CS0246: The type or namespace name 'Skip' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(99,6,99,21): error CS0616: 'DiamondPropertyAttribute' is not an attribute class
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(99,22,99,26): error CS0246: The type or namespace name 'Skip' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(124,19,124,34): error CS0246: The type or namespace name 'Arbitrary<>' could not be found (are you missing a using directive or an assembly reference?)
+1>Done building project "TotalExercism_Generated.csproj" -- FAILED.
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========

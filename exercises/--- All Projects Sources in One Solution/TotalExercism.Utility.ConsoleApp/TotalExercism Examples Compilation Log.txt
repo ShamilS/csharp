@@ -1,0 +1,46 @@
+﻿03.04.2018 - 12:05PM
+
+1>------ Build started: Project: TotalExercism_Generated_Examples, Configuration: Debug Any CPU ------
+1>G:\Learning\exercism\csharp\exercises\alphametics\Example.cs(1,7,1,14): error CS0246: The type or namespace name 'Sprache' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(2,7,2,14): error CS0246: The type or namespace name 'FsCheck' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(3,7,3,14): error CS0246: The type or namespace name 'FsCheck' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\forth\Example.cs(4,7,4,14): error CS0246: The type or namespace name 'Sprache' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\sgf-parsing\Example.cs(4,7,4,14): error CS0246: The type or namespace name 'Sprache' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(114,41,114,58): error CS0246: The type or namespace name 'PropertyAttribute' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\alphametics\Example.cs(136,19,136,41): error CS0246: The type or namespace name 'Parser<>' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\sgf-parsing\Example.cs(31,20,31,35): error CS0246: The type or namespace name 'Parser<>' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\sgf-parsing\Example.cs(23,29,23,41): error CS0246: The type or namespace name 'Parser<>' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\sgf-parsing\Example.cs(24,29,24,41): error CS0246: The type or namespace name 'Parser<>' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\alphametics\Example.cs(139,28,139,50): error CS0246: The type or namespace name 'Parser<>' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\sgf-parsing\Example.cs(25,29,25,43): error CS0246: The type or namespace name 'Parser<>' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\alphametics\Example.cs(140,28,140,50): error CS0246: The type or namespace name 'Parser<>' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\sgf-parsing\Example.cs(26,29,26,43): error CS0246: The type or namespace name 'Parser<>' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\alphametics\Example.cs(141,28,141,46): error CS0246: The type or namespace name 'Parser<>' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\sgf-parsing\Example.cs(27,29,27,43): error CS0246: The type or namespace name 'Parser<>' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\alphametics\Example.cs(142,28,142,46): error CS0246: The type or namespace name 'Parser<>' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\sgf-parsing\Example.cs(28,29,28,66): error CS0246: The type or namespace name 'Parser<>' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\alphametics\Example.cs(143,28,143,46): error CS0246: The type or namespace name 'Parser<>' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\sgf-parsing\Example.cs(29,29,29,66): error CS0246: The type or namespace name 'Parser<>' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(124,19,124,34): error CS0246: The type or namespace name 'Arbitrary<>' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\forth\Example.cs(220,29,220,45): error CS0246: The type or namespace name 'Parser<>' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\forth\Example.cs(225,29,225,43): error CS0246: The type or namespace name 'Parser<>' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\forth\Example.cs(230,29,230,52): error CS0246: The type or namespace name 'Parser<>' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\forth\Example.cs(246,29,246,52): error CS0246: The type or namespace name 'Parser<>' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\forth\Example.cs(255,29,255,65): error CS0246: The type or namespace name 'Parser<>' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(16,6,16,21): error CS0616: 'DiamondPropertyAttribute' is not an attribute class
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(24,6,24,21): error CS0616: 'DiamondPropertyAttribute' is not an attribute class
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(24,22,24,26): error CS0246: The type or namespace name 'Skip' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(34,6,34,21): error CS0616: 'DiamondPropertyAttribute' is not an attribute class
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(34,22,34,26): error CS0246: The type or namespace name 'Skip' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(46,6,46,21): error CS0616: 'DiamondPropertyAttribute' is not an attribute class
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(46,22,46,26): error CS0246: The type or namespace name 'Skip' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(58,6,58,21): error CS0616: 'DiamondPropertyAttribute' is not an attribute class
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(58,22,58,26): error CS0246: The type or namespace name 'Skip' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(70,6,70,21): error CS0616: 'DiamondPropertyAttribute' is not an attribute class
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(70,22,70,26): error CS0246: The type or namespace name 'Skip' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(84,6,84,21): error CS0616: 'DiamondPropertyAttribute' is not an attribute class
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(84,22,84,26): error CS0246: The type or namespace name 'Skip' could not be found (are you missing a using directive or an assembly reference?)
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(99,6,99,21): error CS0616: 'DiamondPropertyAttribute' is not an attribute class
+1>G:\Learning\exercism\csharp\exercises\diamond\DiamondTest.cs(99,22,99,26): error CS0246: The type or namespace name 'Skip' could not be found (are you missing a using directive or an assembly reference?)
+1>Done building project "TotalExercism_Generated_Examples.csproj" -- FAILED.
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
