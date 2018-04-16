@@ -1,3 +1,5 @@
+// This file was auto-generated based on version 1.1.0 of the canonical data.
+
 using Xunit;
 
 public class BinaryTest
@@ -57,7 +59,7 @@ public class BinaryTest
     }
 
     [Fact(Skip = "Remove to run test")]
-    public void Invalid_binary_2_converts_to_decimal_0()
+    public void Number_2_is_not_a_valid_binary_digit()
     {
         Assert.Equal(0, Binary.ToDecimal("2"));
     }
